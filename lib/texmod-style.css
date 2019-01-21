@@ -1,0 +1,98 @@
+
+/*
+body.single.single-tribe_events li#texmodSS{display:block;}
+body.single.single-tribe_events li#texmodHS{display:none;}
+
+*/
+.texmod-addon{
+    max-width: 22em;
+    position: relative;
+    top: -1.8444em;
+}
+    /*
+body.archive.post-type-archive-tribe_events li#texmodSS{display:block;} 
+body.archive.post-type-archive-tribe_events li#texmodHS{display:block;} 
+body.archive.post-type-archive-tribe_events.tribe-events-day li#texmodSS{display:block;}
+body.archive.post-type-archive-tribe_events.tribe-events-day li#texmodHS{display:block;} 
+*/
+a.tecxref{
+    font-size:.8em;
+    height:2.75em;
+    position:relative;
+    text-align:center;float:left;width:282px;padding: 9px 6px;background:khaki;
+    box-shadow:0 0 1px 1px #777;text-shadow: .7px .2px .2px #eee;color:#000}
+    a.tecxref:hover{background:#fafafa;color:#222}
+    a.tecxref.grayed{box-shadow:0 0 1px 1px #444;
+        text-shadow:.5px .5px 1px #111;background:#407faf;color:white;
+    }
+    li.ical-button{
+        float:left;
+    cursor: pointer;
+    width: 100%;
+    font-size: .825em;
+    font-size:smaller;
+    font-weight: inherit;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 3px;
+    text-align:center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    list-style: none;
+}
+    li.ical-button-title a{
+        text-decoration:underline;
+        height:2.75em;
+        position:relative;
+        text-align:center;float:left;
+        padding: 9px 0px;
+    }
+    
+    ul.ical-list-buttons{
+        list-style:none;margin: 0 auto; padding: 0;
+        width:64.5vw;
+    }
+    .texmod-instruct ul {
+        
+        margin-top: -10em;
+        margin-left: 2.825em;
+        list-style: none;
+        margin: 0; 
+        padding: 0;
+        display: inline-block;
+        background:#eee;
+    }
+    .texmod-instruct ul li{
+        color: inherit;
+    }  
+    #inStructions.texmod-instruct dt {
+        display: initial;
+    }  
+    .texmod-instruct dt, #inStructions.texmod-instruct dt{font-weight: 700; font-weight: stronger}
+    #inStructions.texmod-instruct{
+        position:relative;
+        left:0;
+        top: -16em;
+        box-shadow: 0 0 3px 3px #ccc;
+        width:100%;
+        background:#fafafa;
+        color:#111;
+        padding: 6px 12px
+    }
+    #inStructions.texmod-instruct pre{
+        font-size:14px;
+        max-width: 100%;
+        overflow-x: auto;
+        margin-left: 0px;
+font-family: inherit;
+padding-top: 0;
+margin-top: -15px;
+
+    }
+    #inStructions.texmod-instruct:before{content:" ";clear:left;}
+    .texmod-addon:after{content: " ";clear:both;display:table;}
+    @media all and (min-width: 300px) and (max-width: 768px){
+        #inStructions.texmod-instruct{left:1vw;top:-14em;}
+        ul.ical-list-buttons{width: 98%;}
+    }
